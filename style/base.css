@@ -1,3 +1,8 @@
-* {
-  box-sizing: 50rem;
+header {
+  border: 2px solid;
+  display: grid;
+}
+p {
+  grid-template-columns: auto 10px;
+  justify-self: center;
 }
