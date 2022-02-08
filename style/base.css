@@ -6,3 +6,11 @@ p {
   grid-template-columns: auto 10px;
   justify-self: center;
 }
+.Questions {
+  border: 2px solid;
+  height: 1000px;
+}
+.Question1 {
+  border: 2px solid;
+  margin: 40px 20px 40px 20px;
+}
