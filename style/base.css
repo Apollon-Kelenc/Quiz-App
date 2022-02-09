@@ -3,8 +3,14 @@
   display: grid;
 }
 p {
-  grid-template-columns: auto 10px;
   justify-self: center;
+  border: 2px solid;
+  display: grid;
+  margin: 20px;
+  padding: 20px;
+}
+body {
+  margin: 60px;
 }
 .Questions {
   border: 2px solid;
@@ -12,5 +18,12 @@ p {
 }
 .Question1 {
   border: 2px solid;
-  margin: 40px 20px 40px 20px;
+  margin: 60px 30px 0px 30px;
+  height: 350px;
+}
+button {
+  position: relative;
+  top: 200px;
+  left: 500px;
+  margin: 20px;
 }
