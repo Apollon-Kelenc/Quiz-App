@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .Quiz-App {
   background-color: rgb(171, 101, 236);
   border: 2px solid;
