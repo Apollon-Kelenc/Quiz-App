@@ -30,10 +30,9 @@ body {
   border: 2px solid;
   border-radius: 20px;
   height: 100%;
-  position: fixed;
-  top: 8rem;
-  left: 0;
   width: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
   background-color: rgb(171, 106, 231);
 }
 .Question1 {
@@ -60,4 +59,8 @@ ul {
   justify-content: space-evenly;
   grid-gap: 20px;
   list-style-type: none;
+}
+img {
+  height: 50px;
+  padding-top: 10px;
 }
