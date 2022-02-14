@@ -5,3 +5,7 @@ export default {
 };
 
 export const Default = () => DefaultHtml;
+
+const showAnswer = document.querySelector(".show-answer")
+
+showAnswer
