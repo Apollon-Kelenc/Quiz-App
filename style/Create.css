@@ -1,12 +1,14 @@
 * {
   box-sizing: border-box;
 }
+
 main {
   margin-top: 125px;
   margin-bottom: 90px;
 }
+
 .Quiz-App {
-  background-color: rgb(171, 101, 236);
+  background-color: rgb(171 101 236);
   border: 2px solid;
   border-radius: 25px;
   display: grid;
@@ -16,6 +18,7 @@ main {
   left: 0;
   width: 100%;
 }
+
 h1 {
   justify-self: center;
   border: 2px solid;
@@ -23,45 +26,49 @@ h1 {
   padding: 20px;
   background-color: yellow;
 }
+
 p {
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-bottom: 10px;
-  margin-right: 50px;
+  margin-top: 50px 50px 10px 50px;
 }
+
 body {
   margin-right: 25px;
-  background-color: rgb(194, 194, 188);
+  background-color: rgb(194 194 188);
 }
+
 .Questions {
   border: 2px solid;
   border-radius: 20px;
   height: 100%;
   width: 100%;
   margin-left: 9px;
-  background-color: rgb(171, 106, 231);
+  background-color: rgb(171 106 231);
 }
+
 .Question1 {
   display: grid;
   align-self: end;
   justify-items: center;
   border: 2px solid;
   border-radius: 5px;
-  margin: 30px 150px 0px 150px;
+  margin: 30px 150px 0px;
   height: 350px;
   background-color: yellow;
 }
+
 .add-question {
   margin-top: 40px;
 }
+
 .navbar {
-  background-color: rgb(239, 239, 239);
+  background-color: rgb(239 239 239);
   border: 2px solid;
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
 }
+
 ul {
   display: grid;
   grid-template-columns: 50px 50px 50px 50px;
@@ -69,20 +76,24 @@ ul {
   grid-gap: 20px;
   list-style-type: none;
 }
+
 img {
   height: 50px;
   padding-top: 10px;
 }
+
 .bookmark {
   justify-self: end;
   margin-right: 20px;
   margin-bottom: -50px;
 }
+
 .SUBMIT {
   display: flex;
   justify-content: center;
   margin: 50px;
 }
+
 .tags {
   display: flex;
   justify-content: center;
