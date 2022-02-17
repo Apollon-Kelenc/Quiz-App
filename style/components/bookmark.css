@@ -51,7 +51,7 @@ body {
   justify-items: center;
   border: 2px solid;
   border-radius: 5px;
-  margin: 100px 150px 0px;
+  margin: 100px 150px;
   height: 350px;
   background-color: yellow;
 }
