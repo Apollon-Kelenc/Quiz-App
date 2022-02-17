@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Create</title>
     <link rel="stylesheet" href="create.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <main>
@@ -22,9 +23,13 @@
         </p>
         <section class="Question1">
           <form class="add-question">
-            <textarea name="message" rows="17" cols="70">
-Add a Question! </textarea
-            >
+            <textarea
+              data-js="textfieldInput"
+              name="message"
+              rows="17"
+              cols="70"
+              placeholder="Add a Question"
+            ></textarea>
             <div>Count: <span data-js="counter">0</span></div>
           </form>
         </section>
@@ -37,9 +42,14 @@ Add a Question! </textarea
         </p>
         <section class="Question1">
           <form class="add-question">
-            <textarea name="message" rows="17" cols="70">
-Add an answer!</textarea
-            >
+            <textarea
+              data-js="textfieldInput2"
+              name="message"
+              rows="17"
+              cols="70"
+              placeholder="Add a Answer"
+            ></textarea>
+            <div>Count: <span data-js="counter2">0</span></div>
           </form>
         </section>
         <section>
