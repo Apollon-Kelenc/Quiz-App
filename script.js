@@ -8,16 +8,16 @@ answerList.forEach(answer => {
   });
 });
 
-const switchBookmarkBackroundcolor = document.querySelectorAll(
-  '[data-js="bookmarkSymbol"]'
-);
+const changeColor = document.querySelectorAll('[data-js="bookmarkSymbol"]');
 
-switchBookmarkBackroundcolor.forEach(bookmarkSymbolElement => {
-  const switchBookmarkBackroundcolor = bookmarkSymbolElement.querySelector(
-    '[]data-js="bookmarkSymbol"]'
+changeColor.forEach(changeColorElement => {
+  console.log(changeColor);
+  const colorTrigger = changeColorElement.querySelector(
+    '[data-js="bookmark1"]'
   );
-  switchBookmarkBackroundcolor.addEventListener('click', () => {
-    switchBookmarkBackroundcolor.classList.add('highlight');
+  console.log(colorTrigger);
+  colorTrigger.addEventListener('click', () => {
+    colorTrigger.classList.toggle('highlight');
   });
 });
 
