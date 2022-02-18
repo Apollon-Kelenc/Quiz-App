@@ -34,3 +34,10 @@ const counter2 = document.querySelector('[data-js="counter2"]');
 textInput2?.addEventListener('input', () => {
   counter2.textContent = textInput2.value.length;
 });
+
+const textInput3 = document.querySelector('[data-js="textfieldInput3"]');
+const counter3 = document.querySelector('[data-js="counter3"]');
+
+textInput3?.addEventListener('input', () => {
+  counter3.textContent = textInput3.value.length;
+});

@@ -94,6 +94,7 @@ img {
   border: 2px solid black;
   border-radius: 5px;
   background-color: white;
+  cursor: copy;
 }
 
 .highlight {
@@ -108,4 +109,8 @@ img {
   display: flex;
   justify-content: center;
   margin-bottom: 25px;
+}
+
+.show-answer {
+  cursor: pointer;
 }

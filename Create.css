@@ -94,8 +94,6 @@ img {
   margin: 50px;
 }
 
-.tags1 {
-  display: flex;
-  justify-content: center;
-  margin: 50px;
+.submitButton {
+  cursor: pointer;
 }
