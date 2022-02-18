@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bookmark</title>
-    <link rel="stylesheet" href="bookmark.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <main>
@@ -31,7 +32,16 @@
             accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
             no sea takimata sanctus est Lorem ipsum dolor sit amet.
           </p>
-          <button class="show-answer">show answer</button>
+          <div data-js="answer">
+            <div class="button">
+              <button class="show-answer" data-js="answer-button">
+                Show Answer
+              </button>
+            </div>
+            <p class="display-toggle" data-js="first-answer">
+              Hier steht die Antwort auf alle fragen des Universums!
+            </p>
+          </div>
           <div class="tags">
             <button>latein</button>
             <button>latein</button>
@@ -57,7 +67,16 @@
             accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
             no sea takimata sanctus est Lorem ipsum dolor sit amet.
           </p>
-          <button class="show-answer">show answer</button>
+          <div data-js="answer">
+            <div class="button">
+              <button class="show-answer" data-js="answer-button">
+                Show Answer
+              </button>
+            </div>
+            <p class="display-toggle" data-js="first-answer">
+              Hier steht die Antwort auf alle fragen des Universums!
+            </p>
+          </div>
           <div class="tags">
             <button>latein</button>
             <button>latein</button>
@@ -83,7 +102,16 @@
             accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
             no sea takimata sanctus est Lorem ipsum dolor sit amet.
           </p>
-          <button class="show-answer">show answer</button>
+          <div data-js="answer">
+            <div class="button">
+              <button class="show-answer" data-js="answer-button">
+                Show Answer
+              </button>
+            </div>
+            <p class="display-toggle" data-js="first-answer">
+              Hier steht die Antwort auf alle fragen des Universums!
+            </p>
+          </div>
           <div class="tags">
             <button>latein</button>
             <button>latein</button>
@@ -109,7 +137,16 @@
             accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
             no sea takimata sanctus est Lorem ipsum dolor sit amet.
           </p>
-          <button class="show-answer">show answer</button>
+          <div data-js="answer">
+            <div class="button">
+              <button class="show-answer" data-js="answer-button">
+                Show Answer
+              </button>
+            </div>
+            <p class="display-toggle" data-js="first-answer">
+              Hier steht die Antwort auf alle fragen des Universums!
+            </p>
+          </div>
           <div class="tags">
             <button>latein</button>
             <button>latein</button>
@@ -122,12 +159,12 @@
         <nav class="navbar">
           <ul>
             <li>
-              <a href="#Quiz-App"
+              <a href="./index.html"
                 ><img class="Home" src="../../Pictures/house.svg" alt="Home"
               /></a>
             </li>
             <li>
-              <a href="#Quiz-App"
+              <a href="./bookmark.html"
                 ><img
                   class="Bookmark"
                   src="../../Pictures/bookmark.svg"
@@ -135,7 +172,7 @@
               /></a>
             </li>
             <li>
-              <a href="#Quiz-App"
+              <a href="./create.html"
                 ><img
                   class="Question"
                   src="../../Pictures/question.svg"

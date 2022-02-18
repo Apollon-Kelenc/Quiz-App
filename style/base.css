@@ -95,3 +95,9 @@ img {
 .display-toggle {
   display: none;
 }
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
