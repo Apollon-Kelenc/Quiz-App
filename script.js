@@ -8,6 +8,19 @@ answerList.forEach(answer => {
   });
 });
 
+const switchBookmarkBackroundcolor = document.querySelectorAll(
+  '[data-js="bookmarkSymbol"]'
+);
+
+switchBookmarkBackroundcolor.forEach(bookmarkSymbolElement => {
+  const switchBookmarkBackroundcolor = bookmarkSymbolElement.querySelector(
+    '[]data-js="bookmarkSymbol"]'
+  );
+  switchBookmarkBackroundcolor.addEventListener('click', () => {
+    switchBookmarkBackroundcolor.classList.add('highlight');
+  });
+});
+
 const textInput = document.querySelector('[data-js="textfieldInput"]');
 const counter = document.querySelector('[data-js="counter"]');
 
