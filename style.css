@@ -1,3 +1,4 @@
 @import 'style/base.css';
 @import './style/components/Cards.stories.js';
 @import './Create.css';
+@import './page.css';

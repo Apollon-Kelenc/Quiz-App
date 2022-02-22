@@ -41,3 +41,41 @@ const counter3 = document.querySelector('[data-js="counter3"]');
 textInput3?.addEventListener('input', () => {
   counter3.textContent = textInput3.value.length;
 });
+
+const linkHome = document.querySelector('.link-home');
+const linkBookmarked = document.querySelector('.link-bookmarked');
+const linkCreate = document.querySelector('.link-create');
+const linkProfile = document.querySelector('.link-profile');
+
+const pageHome = document.querySelector('#Home');
+const pageBookmarked = document.querySelector('#Bookmarked');
+const pageCreate = document.querySelector('#Create');
+const pageProfile = document.querySelector('#Profile');
+
+linkHome.addEventListener('click', () => {
+  pageHome.classList.add('current');
+  pageBookmarked.classList.remove('current');
+  pageCreate.classList.remove('current');
+  pageProfile.classList.remove('current');
+});
+
+linkBookmarked.addEventListener('click', () => {
+  pageHome.classList.remove('current');
+  pageBookmarked.classList.add('current');
+  pageCreate.classList.remove('current');
+  pageProfile.classList.remove('current');
+});
+
+linkCreate.addEventListener('click', () => {
+  pageHome.classList.remove('current');
+  pageBookmarked.classList.remove('current');
+  pageCreate.classList.add('current');
+  pageProfile.classList.remove('current');
+});
+
+// linkProfile.addEventListener('click', () => {
+//   pageHome.classList.remove('current');
+//   pageBookmarked.classList.remove('current');
+//   pageCreate.classList.remove('current');
+//   pageProfile.classList.add('current');
+// });

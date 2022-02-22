@@ -114,3 +114,11 @@ img {
 .show-answer {
   cursor: pointer;
 }
+/* 
+.page {
+  display: none;
+}
+
+.page.current {
+  display: block;
+} */
